@@ -1,0 +1,87 @@
+/*
+ I am using a analogous colors scheme
+ I am using #dec9f2 which is a shade of purple to show luxury because our products were/or are very
+ top of the line and easy to use. I also use it for wisdom to show how some of these people are very
+ wise in the technology field. 
+ I am using #d1e9b5 which is a shade of green to show growth to show how as canadian technology expands
+ the more we grow as a community and as learners.
+ I am using #d1d7e9 which is a shade of blue to show stability in the pace of canadian technology
+ is expanding. Its also used for trust to show how our products and our innovators make trustworthy 
+ products for users around the globe to use.
+*/
+* {
+  color: #121212;
+  line-height: 130%;
+}
+body {
+  margin: 0;
+}
+header {
+  position: relative;
+  padding: 10px;
+  font-size: 40px;
+  background-color: #d1d7e9;
+  margin: 0px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  border: #d1d7e9 solid 3px;
+  font-size: 24px;
+  margin: 10px;
+}
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 65px;
+}
+nav {
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  position: sticky;
+  font-size: 20px;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #dec9f2;
+  list-style: none;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: inline-block;
+  text-align: center;
+  background-color: #dec9f2;
+  padding: 20px 96px;
+  text-decoration: none;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+  transition: background-color 0.7s ease;
+  background-color: #121212;
+  color: #dec9f2;
+}
+p {
+  position: relative;
+  padding: 20px;
+  border: #121212 solid 1px;
+  z-index: -1;
+  margin: 10px;
+  background-color: #d1e9b5;
+}
+section {
+  margin-bottom: 15px;
+}
+footer {
+  position: relative;
+  margin-top: -50px;
+  height: 60px;
+  clear: both;
+  padding: 20px 32px;
+  background-color: #d1d7e9;
+  text-align: center;
+}
